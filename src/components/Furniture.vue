@@ -1,7 +1,7 @@
 <template>
   <div class="grid">
     <div class="grid__container">
-      <div class="grid__element" v-for="n in 9" :style="{backgroundImage: `url(/midnight/${n}.png)`}">
+      <div class="grid__element" v-for="n in 9" :style="{ backgroundImage: `url(/midnight/${n}.png)` }">
         <!-- <img :src="`/midnight/${n}.png`"> -->
       </div>
     </div>
@@ -15,8 +15,8 @@ import { onMounted } from 'vue';
 
 onMounted(() => {
   const swappable = new Swappable(document.querySelectorAll('.grid__container'), {
-  draggable: '.grid__element'
-});
+    draggable: '.grid__element'
+  });
 })
 </script>
 
@@ -37,6 +37,7 @@ onMounted(() => {
     background-repeat: no-repeat;
   }
 }
+
 .draggable-mirror {
   z-index: 1000;
   color: #969696;
