@@ -4,7 +4,7 @@ a windows app that make you keep track of furniture locations.
 - inspired by https://jsfiddle.net/ag7d3fmh/
 
 ### download
-https://github.com/NotGeekAtAll/midnight-chaser/releases/tag/v1.0.0
+https://github.com/NotGeekAtAll/midnight-chaser/releases
 
 ### feature
 - easy to use,drag and drop
