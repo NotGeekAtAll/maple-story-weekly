@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-    <furniture />
+    <mid-night-chaser />
   </div>
 </template>
 
 <script setup lang="ts">
-import Furniture from './components/Furniture.vue';
+import MidNightChaser from './components/midnight-chaser/index.vue'
 
 </script>
 

@@ -9,4 +9,5 @@ declare module "*.vue" {
 
 declare module "@shopify/draggable" {
   const Swappable: any
+  const Droppable: any
 }
