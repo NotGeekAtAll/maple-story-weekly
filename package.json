@@ -1,8 +1,15 @@
 {
   "name": "maple-tools",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "private": false,
+  "version": "1.0.1",
+  "license": "MIT",
+  "description": "maple story midnight chaser helper",
+  "homepage": "https://github.com/NotGeekAtAll/midnight-chaser",
+  "repository": "https://github.com/Shopify/draggable",
+  "keywords": [
+    "maple story",
+    "midnight chaser"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
