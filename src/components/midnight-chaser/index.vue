@@ -40,8 +40,6 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
 
   .midnight-container {
     width: 260px;
@@ -73,6 +71,7 @@ onMounted(() => {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 10px 4px 0;
   width: @dropContainerSize;
   height: @dropContainerSize;
 
