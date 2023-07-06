@@ -1,7 +1,6 @@
 ### maple story Midnight Chaser tool
 a windows app that make you keep track of furniture locations.
 - powered by tauri
-- inspired by https://jsfiddle.net/ag7d3fmh/
 
 ### download
 https://github.com/NotGeekAtAll/midnight-chaser/releases
@@ -12,4 +11,4 @@ https://github.com/NotGeekAtAll/midnight-chaser/releases
 - window always on top
 
 ### preview
-![](./demo/demo.gif)
+![](./demo/demo.gif=365px)
