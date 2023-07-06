@@ -11,4 +11,4 @@ https://github.com/NotGeekAtAll/midnight-chaser/releases
 - window always on top
 
 ### preview
-![](./demo/demo.gif=365px)
+![](./demo/demo.gif)
