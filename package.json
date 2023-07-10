@@ -1,11 +1,11 @@
 {
   "name": "maple-tools",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
-  "description": "maple story midnight chaser helper",
-  "homepage": "https://github.com/NotGeekAtAll/midnight-chaser",
-  "repository": "https://github.com/Shopify/draggable",
+  "description": "maple story, midnight chaser, esfera guardian, hungry muto",
+  "homepage": "https://github.com/NotGeekAtAll/maple-story-weekly",
+  "repository": "https://github.com/NotGeekAtAll/maple-story-weekly",
   "keywords": [
     "maple story",
     "midnight chaser"
