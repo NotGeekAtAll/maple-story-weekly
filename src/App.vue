@@ -12,8 +12,11 @@
       </div>
     </div>
     <div class="content-wrapper">
-      <mid-night-chaser v-show="curIndex === 1" />
-      <img class="response-img" src="@/assets/images/receipe.jpg" alt="" v-show="curIndex === 2">
+      <div class="midnight-wrapper" v-show="curIndex === 1">
+        <button class="reset-btn" @click="handleReset">重置</button>
+        <mid-night-chaser :key="updateKey"/>
+      </div>
+      <img class="response-img" src="@/assets/images/recipe.jpg" alt="" v-show="curIndex === 2">
       <img class="response-img" src="@/assets/images/pao.jpg" alt="" v-show="curIndex === 3">
     </div>
   </div>
@@ -27,6 +30,11 @@ const curIndex = ref(1)
 
 function setActiveIndex(i: number) {
   curIndex.value = i
+}
+
+const updateKey = ref(0)
+function handleReset() {
+  updateKey.value ++
 }
 
 </script>
@@ -69,5 +77,38 @@ function setActiveIndex(i: number) {
 
 .img-box+.img-box {
   margin-left: 20px;
+}
+
+.midnight-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 260px;
+  margin: 0 auto;
+
+  .reset-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 28px;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    transition: 0.1s;
+
+    &:hover {
+      background-color: #f1f1f1;
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
+  }
 }
 </style>

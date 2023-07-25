@@ -35,17 +35,6 @@ onMounted(() => {
 @dropWidth: 66px;
 @dropContainerSize: @dropWidth * 3.2;
 
-
-.midnight-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .midnight-container {
-    width: 260px;
-  }
-}
-
 .drag-container {
   display: flex;
   flex-wrap: wrap;
